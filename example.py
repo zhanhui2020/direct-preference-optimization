@@ -3,7 +3,12 @@ import torch.nn.functional as F
 from transformers import LlamaForCausalLM, LlamaConfig
 from copy import deepcopy
 
+# Direct Preference Optimization的示例代码
+# peter wu
+# 2023-12-13
+
 torch.manual_seed(0)
+
 if __name__ == "__main__":
     # 超参数
     beta = 0.1
